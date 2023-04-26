@@ -1,0 +1,32 @@
+.welcome-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.welcome-screen h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.welcome-screen p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.welcome-screen button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  margin: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #0077c2;
+  color: #fff;
+  cursor: pointer;
+}
+
+.welcome-screen button:hover {
+  background-color: #005ea8;
+}
